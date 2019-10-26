@@ -1,12 +1,12 @@
  server: 
   port: 8202
 spring:
-  profiles: test #å¼€å‘ç¯å¢ƒ
+  profiles: test #¿ª·¢»·¾³
   application:
     name: springcloud-study-config-client
 
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:1000/eureka/
-#è¯·ä¿å­˜ä¸ºUTF-8æ ¼å¼
+      defaultZone: http://localhost:1000/eureka
+#Çë±£´æÎªUTF-8¸ñÊ½
