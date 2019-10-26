@@ -8,5 +8,5 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:1000/eureka
+      defaultZone: http://localhost:1000/eureka/
 #请保存为UTF-8格式
