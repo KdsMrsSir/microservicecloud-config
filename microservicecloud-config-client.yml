@@ -1,0 +1,12 @@
+ server: 
+  port: 8202
+spring:
+  profiles: test #开发环境
+  application:
+    name: springcloud-study-config-client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka/
+#请保存为UTF-8格式
